@@ -1,0 +1,19 @@
+# Environnement Python et fichiers temporaires
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+*.log
+
+# Selenium Manager
+.selenium-cache/
+
+# Exports generes par le scraper
+exports/*.csv
+exports/*.html
+
+# Parametres locaux et secrets
+.env
+.env.*
+!.env.example
